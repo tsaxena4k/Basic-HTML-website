@@ -1,3 +1,9 @@
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+}
 @mixin vendor-property($property, $value) { 
     @each $vendor in ('-moz-', '-webkit-', '-o-', '-ms-', '') {
         #{$vendor}#{$property}: #{$value};
